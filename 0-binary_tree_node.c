@@ -15,8 +15,8 @@ binary_tree_t *binary_tree_node(binary_tree_t *par, int val)
 	new = malloc(sizeof(binary_tree_t));
 	if (!new)
 		return (NULL);
-	new->n = val
-	new->par = par;
+	new->n = val;
+	new->parent = par;
 	new->left = NULL;
 	new->right = NULL;
 	return (new);
