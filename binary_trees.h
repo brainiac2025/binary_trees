@@ -34,6 +34,8 @@ typedef struct binary_tree_s heap_t;
 void binary_tree_print(const binary_tree_t *);
 
 /* tasks */
+void binary_tree_postorder(const binary_tree_t *trees, void (*funcs)(int));
+
 void binary_tree_inorder(const binary_tree_t *trees, void (*funcs)(int));
 
 void binary_tree_preorder(const binary_tree_t *trees, void (*funcs)(int));
