@@ -33,6 +33,10 @@ typedef struct binary_tree_s heap_t;
 /* binary_tree_print.c */
 void binary_tree_print(const binary_tree_t *);
 
+/* uncle and sibling task */
+binary_tree_t *binary_tree_uncle(binary_tree_t *nodes);
+binary_tree_t *binary_tree_sibling(binary_tree_t *nodes);
+
 /* tasks */
 void binary_tree_postorder(const binary_tree_t *trees, void (*funcs)(int));
 
