@@ -66,4 +66,6 @@ size_t binary_tree_leaves(const binary_tree_t *trees);
 
 int binary_tree_is_full(const binary_tree_t *trees);
 
+/* Advanced task function */
+binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree);
 #endif
